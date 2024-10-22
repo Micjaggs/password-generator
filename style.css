@@ -35,11 +35,11 @@ button {
     justify-content:left;
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
 }
 
 #pass-2-box {
     display: flex;
-    margin-left: 100px;
     background-color: #273549;
     width: 160px;
     height: 40px;
@@ -50,6 +50,8 @@ button {
 
 #pass-1-box {
     display: flex;
+    margin-right: 85px;
+    margin-bottom: 10px;
     background-color: #273549;
     width: 160px;
     height: 40px;
@@ -59,8 +61,10 @@ button {
 
 #pass-1 {
     margin: auto;
+    color:#34D399;
 }
 
 #pass-2 {
     margin: auto;
+    color:#34D399;
 }
