@@ -34,8 +34,33 @@ button {
     display: flex;
     justify-content:left;
     margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pass-2-box {
+    display: flex;
+    margin-left: 100px;
+    background-color: #273549;
+    width: 160px;
+    height: 40px;
+    vertical-align: center;
+    border-radius: 5px;
+    
+}
+
+#pass-1-box {
+    display: flex;
+    background-color: #273549;
+    width: 160px;
+    height: 40px;
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+#pass-1 {
+    margin: auto;
 }
 
 #pass-2 {
-    margin-left: 200px;
+    margin: auto;
 }
